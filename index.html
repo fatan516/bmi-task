@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./plugin/bootstrap 5.3.3/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/mater.css">
+    <link rel="stylesheet" href="./css/reset.css">
+</head>
+
+<body>
+  
+        <div class="container d-flex flex-column gap-5 text-center align-items-center justify-content-center">
+            <h1 class="fw-bold my-5 text-black">Lets calculate your BMI</h1>
+            <div class="row gap-5">
+                <div class="weight">
+                    <label class="fw-bold" for="weight">Enter your weight(kg)</label>
+                    <input class="border-2 border-black" type="text" placeholder="15" value="" id="weight">
+                </div>
+                <div class="height">
+                    <label class="fw-bold" for="height">Enter your height(m)</label>
+                    <input class="border-2 border-black" type="text" placeholder="170" value="" id="height">
+                </div>
+
+            </div>
+            <button type="submit" id="calculate" class="w-25 py-2 mt-5">calculate</button>
+
+        </div>
+        <div id="result" class="text-center mt-5 bg-info"></div>
+   
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./plugin/bootstrap 5.3.3/bootstrap.bundle.js"></script>
+    <script src="./js/master.js"></script>
+</body>
+
+</html>
